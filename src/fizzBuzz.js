@@ -13,18 +13,19 @@
 //   i += 1
 // end
 
-class FizzBuzz(){
+class FizzBuzz{
 
-  count(){
-    // does a count up to a given number
-  };
+  // count(){
+  //   // does a count up to a given number
+  // };
 
   number(i){
     // checks if a number fizzes or buzzes
-    if (i % 3){
-      return('Fizz');
+    
+    if (i % 3 === 0){
+      return('Fizz')
     } else {
-      return i;
+      return i
     }
-  };
+  }
 }
